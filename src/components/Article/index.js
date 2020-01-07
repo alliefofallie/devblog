@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import userConfig from '../../../config';
 
 const Article = styled.article`
-  color: #65738c;
+  color: #fff;
   font-size: 16px;
 
   a {
@@ -16,11 +16,13 @@ const Article = styled.article`
   }
 
   h1 {
-    color: #3e465b;
-    font-size: 30px;
+    color: #fff;
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Passion One';
     font-weight: 700;
     line-height: 1.5;
-    margin: 25px 50px 15px;
+    margin: 100px 50px 15px;
   }
 
   h2 {

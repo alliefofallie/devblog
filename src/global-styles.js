@@ -1,11 +1,18 @@
 import { createGlobalStyle } from "styled-components";
 import styledNormalize from "styled-normalize";
 
+import WebFont from 'webfontloader';
+WebFont.load({
+  google:{
+    families: ['Press Start 2P', 'Zilla Slab Highlight', 'Abril Fatface', 'Patua One', 'Passion One']
+  }
+});
+
 const GlobalStyle = createGlobalStyle`
   ${styledNormalize}
-  
+
   @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-  
+
   *,
   *:before,
   *:after {
@@ -20,8 +27,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #f9fafc;
-    font-family: 'Open Sans', sans-serif; 
+    background: #000000;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     padding: 50px 0;
     -webkit-font-smoothing: antialiased;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const H1 = styled.h1`
+const H2 = styled.h2`
 
 `;
 
-export default H1;
+export default H2;

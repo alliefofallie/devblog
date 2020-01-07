@@ -12,14 +12,14 @@ const SocialLink = styled.a`
   svg {
     display: inline-block;
     height: 20px;
-    margin-right: 5px;
+    margin-right: 0px;
     stroke: #6e849c;
     vertical-align: middle;
     width: 20px;
   }
 
   &:hover {
-    border-color: #3e465b;
+    border-color: #6d1be0;
   }
 `;
 

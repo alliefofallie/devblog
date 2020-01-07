@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 const PostHeader = styled.div`
-  h1 {
-    color: #3e465b;
-    font-size: 35px;
+  h2 {
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Patua One';
     line-height: 1.5;
     margin: 0;
     padding: 0 30px;
@@ -11,7 +12,7 @@ const PostHeader = styled.div`
   }
 
   p {
-    color: #666d71;
+    color: #6804bf;
     display: block;
     font-size: 1.6em;
     margin: 0;

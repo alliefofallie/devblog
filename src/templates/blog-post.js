@@ -46,7 +46,7 @@ class BlogPostTemplate extends React.Component {
                   sizes={post.frontmatter.featuredImage.childImageSharp.sizes}
                 />
               )}
-              <h1>{post.frontmatter.title}</h1>
+              <h2>{post.frontmatter.title}</h2>
               <p>{post.frontmatter.date}</p>
               <span />
             </ArticleHeader>
