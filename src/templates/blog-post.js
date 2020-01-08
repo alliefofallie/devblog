@@ -15,6 +15,12 @@ import Container from '../components/Container';
 import FeaturedImage from '../components/FeaturedImage';
 import PageNav from '../components/PageNav';
 import Share from '../components/Share';
+import WebFont from 'webfontloader';
+WebFont.load({
+  google:{
+    families: ['Press Start 2P', 'Zilla Slab Highlight', 'Abril Fatface', 'Patua One', 'Passion One']
+  }
+});
 
 class BlogPostTemplate extends React.Component {
   render() {

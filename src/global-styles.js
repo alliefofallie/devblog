@@ -1,13 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import styledNormalize from "styled-normalize";
 
-import WebFont from 'webfontloader';
-WebFont.load({
-  google:{
-    families: ['Press Start 2P', 'Zilla Slab Highlight', 'Abril Fatface', 'Patua One', 'Passion One']
-  }
-});
-
 const GlobalStyle = createGlobalStyle`
   ${styledNormalize}
 
