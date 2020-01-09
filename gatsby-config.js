@@ -72,27 +72,5 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-source-twitter`,
-      options: {
-        credentials: {
-          consumer_key: process.env.TWITTER_CONSUMER_KEY,
-          consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
-          bearer_token: process.env.TWITTER_BEARER_TOKEN,
-        },
-        queries: {
-          ac1dgoddess: {
-            endpoint: "statuses/user_timeline",
-            params: {
-              screen_name: "ac1dgoddess",
-              include_rts: false,
-              exclude_replies: true,
-              tweet_mode: "extended",
-              count: 1,
-            },
-          },
-        },
-      },
-    }
   ],
 };
